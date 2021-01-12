@@ -1,8 +1,8 @@
 {
   "main": {
     "name": "Luke Harrison",
-    "occupation": "developer, atist, and consultant.",
-    "description": "I am a full-stack web developer, visual artist, web consultant, and wearer of many hats.",
+    "occupation": "web-developer, visual and musical atist, and consultant.",
+    "description": "I have a passion for music and art, social equity, and the pursuit of technoloical advancment.",
     "image": "profilepic.jpg",
     "bio": "I am a full-stack web developer, a student of life, and an artist. I view technology as away of monitoring the world’s progress and as a means of giving back to underserved communities. With my work I seek to employ creative, thought provoking solutions to areas of community development, social inequalities, and technological evolution.",
     "contactmessage": "Feel free to contact me about my previous work, job offers, or commisions.",
@@ -47,52 +47,64 @@
     "education": [
       {
         "school": "Makeschool",
-        "degree": "Candiddate for Bachelors in Applied Computer Science",
-        "graduated": "August 2021",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "degree": "Bachelor’s in Applied Computer Science",
+        "graduated": "2021",
+        "description": "Make School is a liberal art Computer Science college under Dominican University. "
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Freelancer",
+        "title": "Art, Voiceacting, Web Dev, Design, Consultation",
+        "years": "Dec 2019 - Present",
+        "description": "I create digital artworks, animations, web desgn, written content, voice work, and full-stack applications. I have created murals for festivals, provided voice lines for independant video production, and have written content for books, blogs, and betas. I have also built websites with and for companies like Elastic, Cruise, General Assembly, Square, and more."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Hack the Hood",
+        "title": "Web Content Specialist",
+        "years": "June 2019 - Dec 2019",
+        "description": "As the web content specialist, it was my responsibility to review, create, and adjust written and visual content presented and present on all of the companies online platforms. I often worked with photo editing, marketing, and public outreach team support while in this role."
+      },
+      {
+        "company": "Hack the Hood",
+        "title": "Junior Instructor",
+        "years": "Sep 2018 - Jan 2019",
+        "description": "Assisted with creating curriculum for coding bootcamp focused on HTML, CSS, and  JavaScript. I assited in creating relationships between students and local businesses. During this time I also created and instructed the companies first Raspberry Pi focused course."
+      },
+      {
+        "company": "Hack the Hood",
+        "title": "Junior Web Developer",
+        "years": "Apr 2018 - Sep 2018",
+        "description": "As a developer i created and designed static websites using HTML, CSS, and Javascripts. I also assited with customer support and curriculum development."
       }
     ],
     "skills": [
       {
         "name": "Git",
-        "level": "83%"
+        "level": "93%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": "Adobe Photoshop, Lightroom, Bridge, Illustrator",
+        "level": "75%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "77%"
       },
       {
-        "name": "CSS",
+        "name": "Python",
         "level": "90%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
+        "name": "HTML5, CSS3, JS",
+        "level": "85%"
       },
       {
-        "name": "VueJs",
+        "name": "GraphQL",
         "level": "50%"
       },
       {
-        "name": "MongoDB",
+        "name": "SQL",
         "level": "80%"
       }
     ]
@@ -100,28 +112,28 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Minerva Facilities",
+        "category": "Makeschool Industry Collaboration with New Harmony Café",
+        "image": "project_1.png",
+        "url": "https://minervafacilities.com/#/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Mythril Sheets",
+        "category": "(Under development) A personalized D&D hub for Group homebrew tracking.",
+        "image": "project_2.png",
+        "url": "https://mythril-sheets.herokuapp.com/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "The Drip",
+        "category": "Concept for a public good, social media site.",
+        "image": "project_3.png",
+        "url": "https://thedrip.herokuapp.com/"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Slayfarer",
+        "category": "(MVP Only) A travel review site done as a class assignment.",
+        "image": "project_4.png",
+        "url": "https://ga-project-02.web.app/"
       }
     ]
   },
@@ -129,11 +141,11 @@
     "testimonials": [
       {
         "text": "Luke is a brilliant problem solver with an eye on efficiency. Luke is capable of synthesizing complex concepts into smaller easier to understand pieces. He was an asset to my team and I would gladly work with him again.",
-        "user": "RC Brown"
+        "user": "Software Engineer, RC Brown"
       },
       {
-        "text": "That Luke Harrison must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Always available to help, incredibly proficient, and very hard working. In my experience, no project is too much trouble, and with Lukes bredth of experiences he can cover and understand multiple angles of any project. I can recommend his services without hesitation.",
+        "user": "Software Engineer, Juan Faust"
       }
     ]
   }
