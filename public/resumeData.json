@@ -1,13 +1,13 @@
 {
   "main": {
     "name": "Luke Harrison",
-    "occupation": "web-developer, visual and musical atist, and consultant.",
+    "occupation": "web-developer, visual and musical artist, and consultant.",
     "description": "I have a passion for music and art, social equity, and the pursuit of technoloical advancment.",
-    "image": "profilepic.jpg",
+    "image": "profilepic.png",
     "bio": "I am a full-stack web developer, a student of life, and an artist. I view technology as away of monitoring the world’s progress and as a means of giving back to underserved communities. With my work I seek to employ creative, thought provoking solutions to areas of community development, social inequalities, and technological evolution.",
     "contactmessage": "Feel free to contact me about my previous work, job offers, or commisions.",
     "email": "Luke@hackthehood.org",
-    "phone": "510-21304068",
+    "phone": "510-213-4068",
     "address": {
       "city": "Seattle",
       "state": "Washington"
@@ -134,6 +134,32 @@
         "category": "(MVP Only) A travel review site done as a class assignment.",
         "image": "project_4.png",
         "url": "https://ga-project-02.web.app/"
+      }
+    ],
+    "art": [
+      {
+        "title": "Self",
+        "category": "Mixed media self portrait of a visit to italy.",
+        "image": "art_1.png",
+        "url": "https://www.deviantart.com/lukazdane/art/Untitled-674484256"
+      },
+      {
+        "title": "Byrd",
+        "category": "Colered pencil rendition of fat Bulbul in a filtered floodlight.",
+        "image": "art_2.png",
+        "url": "https://www.deviantart.com/lukazdane/art/Byrd-344094346"
+      },
+      {
+        "title": "Game Over Album Cover",
+        "category": "Concept art for EC2 Modeled after Kpop style clothing and music, a generalized 3d art model, and persuasive concepts.",
+        "image": "art_3.png",
+        "url": "https://0101.bandcamp.com/"
+      },
+      {
+        "title": "Pixel Ocean Album Cover",
+        "category": "Album art for underground electronic music project..",
+        "image": "art_4.jpg",
+        "url": "https://0101.bandcamp.com/"
       }
     ]
   },

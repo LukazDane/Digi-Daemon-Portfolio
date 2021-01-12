@@ -35,7 +35,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/madeon.gif) no-repeat top center;
+  background: #161415 url(../images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -66,14 +66,14 @@ header .banner-text h1 {
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
   color: #a8a8a8;
   margin: 0 auto;
   width: 70%;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -175,6 +175,9 @@ ul#nav li {
   display: inline-block;
 }
 
+.icon-down-circle {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
 /* Links */
 ul#nav li a {
   /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
@@ -184,7 +187,7 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color: #fff;
+  color: #c1bbdd;
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -197,7 +200,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: #dcfffb;
 }
 
 /* ------------------------------------------------------------------ */
@@ -263,7 +266,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #dcfffb;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -694,7 +697,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f url(../images/header-bg.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
@@ -734,9 +737,12 @@ call-to-action .button {
 /*	Blockquotes */
 #testimonials blockquote {
   margin: 0 0px 30px 0px;
-  padding-left: 0;
+  padding-left: 1rem;
   position: relative;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px 25px 25px 0;
 }
 #testimonials blockquote:before {
   content: none;

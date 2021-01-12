@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
 
 class Contact extends Component {
   render() {
@@ -91,20 +93,14 @@ class Contact extends Component {
                   <h4 className="widget-title">Latest Tweets</h4>
                   <ul id="twitter">
                      <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
+                     <TwitterTimelineEmbed
+  sourceType="profile"
+  screenName="lukazdane"
+  options={{height: 400}}
+/>
                      </li>
                      <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
+                        
                      </li>
                   </ul>
 		         </div>
